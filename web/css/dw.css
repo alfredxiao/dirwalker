@@ -1,0 +1,6 @@
+div.h1 {font-size:23pt;font-weight:bold;padding-bottom:10px}
+table {border: 1px solid #69c;box-shadow: 5px 5px 2px #69c;font-family:monospace;}
+tr.header {background-color:#ddd;}
+div.address {padding-top:8px;font-style:italic;font-size:11pt;}
+tr:hover {background-color: #9cf;}
+/* td.date {font-family: monospace} */
