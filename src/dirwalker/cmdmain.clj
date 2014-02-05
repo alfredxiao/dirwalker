@@ -4,8 +4,7 @@
   (:use [dirwalker.view.cmd-tree])
   (:use [dirwalker.webserver])
   (:require [clojure.tools.cli :refer [parse-opts]])
-  (:gen-class)
-)
+  (:gen-class))
 
 (def cli-options
   [["-d" "--dir DIR_PATH" "Directory path"]

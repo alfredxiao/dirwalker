@@ -56,7 +56,7 @@ Walks through a directory and provides statistics regarding file/dir size. It pr
 10. make lists/table sortable (server side sort) in html display
 11. add last modified date (and make it sortable)
 12. caching a dir info
-13. @todo refactor parameter passing
+13. @todo refactor (parameter passing, etc) 
 14. @todo testing in clojure (http testing?)
 
 ## License

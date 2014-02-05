@@ -23,14 +23,7 @@
         (-> agg-info
           (assoc-fn :size + (get ff-info :size  0))
           (assoc-fn :fcount + (get ff-info :fcount 0))
-          (assoc-fn :subs conj ff-info))
-        #_{:is_dir   (:is_dir agg-info)
-          :last (.lastModified dir)
-          :path (.getCanonicalPath dir)
-          :name   (:name agg-info)
-          :size   (+ (:size agg-info ) (get ff-info :size  0)) 
-          :fcount (+ (:fcount agg-info) (get ff-info :fcount 0))
-          :subs   (conj (:subs agg-info) ff-info)}) 
+          (assoc-fn :subs conj ff-info))) 
       {:is_dir true
        :path (.getCanonicalPath dir)
        :size 0 
